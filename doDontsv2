@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Do's and Don'ts </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class= bod1>
+  
+
+
+    <h1 class = header1> Here is a list of what to do to prepare and when in the process of taking out a loan:
+ </h1> 
+
+
+
+
+<ul>
+  <li>Save money</li>
+  <li>Have good credit</li>
+  <li>Pay bills on time</li>
+  <li> Plan out what the loan is being used for </li> 
+  <li>Have a stable job</li>
+  <li>Make sure you know you can pay the loan back </li>
+  <li>Figure out how you will be paying the loan back</li>
+
+  <li>Make sure you understand how the loan worksn (any interest rates? Is there different bank locations that meet your standard of taking a loan out? )
+ </li>
+
+  <li>Make sure you understand the process  </li>
+  <li>Make sure to ask questions about anything you are still confused about</li>
+  
+
+</ul>  
+
+
+ <h1 class = header1> Here is list of what not to do and what to avoid when in the process of taking out a loan:
+ </h1> 
+
+<ul>
+  <li>Don't have bad credit </li>
+  <li>Don't have an unstable job</li>
+  <li>Don't be paying bills late</li>
+  <li> Don't take out a loan without having a plan with the loan </li> 
+
+  <li>Don't take out a loan without knowing how you will pay it back</li>
+  <li>Don't take out a loan without knowing the process of taking out a loan </li>
+  <li>Dont hesitate to ask questions</li>
+
+
+</ul> 
+
+    
+    <script src="script.js"></script>
+  </body>
+</html>
