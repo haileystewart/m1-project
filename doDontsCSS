@@ -1,0 +1,21 @@
+.bod1 {
+		border: solid, 2px, green; 
+    border-style: solid; 
+		
+		background-origin: padding-box;
+	
+		color: rgb(196, 40, 40);
+		display: inline-block;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 15px;
+	
+		line-height: normal;
+	
+		
+		
+}
+
+
+  .header1{
+    text-align: center;
+  }
