@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body{
+        background-color: beige;
+    }
+    .box {
+  -webkit-box-shadow: 0px 12px 6px -6px rgba(41,41,41,0.25);
+  -moz-box-shadow: 0px 12px 6px -6px rgba(41,41,41,0.25);
+  box-shadow: 0px 12px 6px -6px rgba(41,41,41,0.25);  padding: 0;
+}
+
+.step1 {
+  z-index: 999;
+}
+
+.step2 .animated {
+  -webkit-animation-delay: 1s; 
+  animation-delay: 1s;
+  position: relative;
+  top: -6px;
+}
+
+.step3 .animated {
+  -webkit-animation-delay: 2s; 
+  animation-delay: 2s;
+  z-index: -3;
+  position:relative;
+  top: -12px;
+}
+
+.step4 .animated {
+  -webkit-animation-delay: 3s; 
+  animation-delay: 3s;
+  z-index: -5;
+  position: relative;
+  top: -18px;
+}
+
+.shape {
+	width: 150px;
+	height: 120px;
+	-webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  -webkit-box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
+  -moz-box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
+  box-shadow: 0px 12px 30px -6px rgba(41,41,41,0.25);
+  top: 10px;
+  left: 8px;
+  text-align: center;
+}
+
+.shape-1 .shape{
+  background: #e74c3c;
+}
+
+.shape-1 .material-icons {
+  color: #e74c3c;
+}
+
+.shape-2 .shape{
+  background: #34495e;
+}
+
+.shape-2 .material-icons { 
+  color: #34495e;
+}
+
+.shape-3 .shape {
+  background: #f39c12;
+}
+
+.shape-3 .material-icons { 
+  color: #f39c12;
+}
+
+.shape-4 .shape {
+  background: #3498db;
+}
+
+.shape-4 .material-icons { 
+  color: #3498db;
+}
+
+.number {
+  -webkit-transform: skew(-20deg);
+	-moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+h1 {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 8px;
+  transform:scale(2,3); 
+  -webkit-transform:scale(2,3); 
+  -moz-transform:scale(2,3); 
+  -ms-transform:scale(2,3); 
+  -o-transform:scale(2,3); 
+}
+
+.box p {
+  font-weight: 300;
+  padding-top: 25px;
+}
+
+/* Not required */
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  margin: 40px 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.md-56 {
+  font-size: 56px;
+  padding-top: 30px;
+}
+.continue .btn {
+  margin-top: 40px;
+  -webkit-animation-delay: 4s; 
+  animation-delay: 4s;
+}
+
+
+ 
+
+  .header1{
+    text-align: normal;
+    color: rgb(33,4,60);
+    font-size: 10px; 
+     word-wrap: break-word;
+     width: 40%;
+     padding-left: 120px; 
+     margin-left: 10px; 
+     margin-right: 10px; 
+    
+  }
+
+
+  .dosList{
+		color: rgb(196, 40, 40);
+  line-height: 30px; 
+  text-align: left; 
+	
+  }
+
+  .dontsList{
+    color: rgb(196, 40, 40);
+      line-height: 30px; 
+      text-align: left; 
+
+  }
+
+.div1, .div2{
+  width: 50%; 
+  float: left; 
+  text-align: normal; 
+}
+
+.vidIntro{
+  text-align: center; 
+  width: none; 
+}
+
+.video{
+  margin-top: 100px; 
+}
+
+.vidP{
+  font-size: 30px; 
+  padding-top: 30px; 
+
+}
+.vidDiv{
+  float: left; 
+  margin: 0 10 px 2px 0;
+}
+ 
+
+</style>
+
+<h1> M1FINANCE PROJECT 2021 </h1>
+<!-- VIDEO SECTION -->
+<head>
+    <title>Embed Youtube Video </title>
+</head>
+
+<body class= video>
+    <section>
+        <h2 class=vidIntro>Video introducing the most important things about taking college loans and what to expect</h2>
+    </section>
+
+
+<div  class = vidDiv> 
+    <iframe text-align= center; width="1420"  height= "1000" src="https://www.youtube.com/embed/FyLRxU5mJPM" 
+title="YouTube video player" frameborder="0" allow="accelerometer;
+autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
+<br>
+<br> 
+<br> 
+<p class = vidP > This video mentions the things high school students and current college students should to to manage their finances better and the pros/consd of 
+	taking out loans.
+	Important terms were discussed in order to educate students what they should need to know when taking loans out.
+	What to expect and what not to expect during your college years of taking out loans were discussed.
+	This video also brings someone who's been through this with their own college experience on loans.
+</p>
+</body>
+
+<!-- INFOGRAPHIC SECTION -->
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <h2>Key Terms</h2>
+  </div>
+  <h2>COMMON STUDENT LOAN TERMINOLOGY</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2 step1">
+        <div class="row box shape-1 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>01</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Principal: Is the amount you borrowed when you took out the loan. For example, if you take out a $100,000 loan for graduate school, the principal of the loan is $100,000.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE873;</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 step2">
+        <div class="row box shape-2 animated bounceInRight">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>02</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Term: The length of time the loan is expected to be repaid. </p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6DF;</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>03</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Promissory Note:A contract that states that you would return a loan on agreed-upon terms. Your promissory note is the legal agreement that governs your borrowing arrangement, so read it carefully.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 step4">
+        <div class="row box shape-4 animated bounceInRight">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>04</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Origination Fee: Some lenders impose a fee for completing a loan application or in lieu of paying interest up front.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6E1;</i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>05</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Accrued Interest: The amount of interest that has accrued since your last payment on a loan.  However, accumulated interest may be capitalized after a period of missed or reduced payments, which means you'll have to pay interest on the student loan accrued interest.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>06</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Amortizaton:The amount of loan principal and interest you pay down over the course of your loan term is referred to as amortization. Each payment on a student loan is a set amount that goes toward both interest and principal. </p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div><div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>07</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Annual Percentage Rate: The annual rate of interest imposed on a loan, represented as a percentage. APR is a standardized measurement that helps you to compare different loans more fairly. </p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>08</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Co-Signer: A third party, such as a parent, who has agreed to share equal responsibility in repaying your loan on a contractual basis (s). You are still responsible for repaying the debt if you have a cosigner, but the cosigner must step in if you are unable to make payments.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>09</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Grace Period: You are not required to make payments on certain loans for a period of time after you graduate, leave school, or drop below half-time. During the grace period, some loans continue to accrue interest, which is often capitalized, making your loan more expensive..</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>10</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Loan Servicer: Your lender may work with a third-party company to manage your loan and collect payments. You should contact your student loan servicer if you have any issues about your student loan payments or administrative details such as account information.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>11</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>London Interbank Offered Rate (LIBOR): An interest rate benchmark that banks and other lenders use to set loan interest rates. Many variable student loans are linked to LIBOR, which means your loan's APR will fluctuate with the index's change. Rates are normally changed once a month.
+  </p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <h2>Potential Student Loan Pitfalls</h2>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>12</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Default: Failure to return a debt in accordance with the promissory note's stipulations. If you default on your student loans, you may face additional fees, wage garnishment, and a substantial negative impact on your credit.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1> 13</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Deferment: The temporary deferral of debt repayment, during which you may not be responsible for any accrued interest (on certain types of loans). Deferment is normally only accessible for a limited number of federal loans.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>14</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            
+            <p>Forebance:On all types of federal student loans, a temporary deferral of debt repayment during which interest normally continues to accrue. If your student loan is in forbearance, you have the option of paying the interest as it accrues or allowing it to accrue and capitalizing at the end of the forbearance period.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>15</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Captialized Interest: Interest that has been added to the principal balance of your loan following a period of non-payment, such as forbearance. Your interest is now computed on the new amount once the interest is added to your principal balance.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>16</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Consolidation(Direct Loan Consolidation Program): Combination of two or more loans into a single loan with a single interest rate and period. The resulting interest rate is a weighted average of the original loan rates, rounded to the eighth decimal place.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <h2>Potential Money Savers</h2>
+  
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>17</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>consolidation (private lender): Combining two or more loans into a single loan with the same interest rate and period. When you consolidate loans with a private lender, you do it through refinancing, which means you get a new (hopefully lower) interest rate or lower payments over a longer period of time.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>18</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Student Loan Refinancing: Getting a new loan with a lower interest rate and utilizing it to pay off your other loans, potentially lowering your overall interest rate.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>19</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Automated Clearing House (ACH)payment: The Automated Clearing House system is used to send computerized money transfers. The ACH is an electronic money transfer method that allows your lender or loan servicer to receive your monthly loan payment immediately from your bank account.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="col-md-8 col-md-offset-2 step3">
+        <div class="row box shape-3 animated bounceInLeft">
+          <div class="col-xs-7 col-sm-4 col-md-4 shape">
+            <div class="number">
+              <h1>20</h1>
+            </div>
+          </div>
+          <div class="col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-1 col-md-4 col-md-offset-1">
+            <p>Pre-Payment: Making more than the minimum payment or paying off the loan early. All school loans, both private and federal, include penalty-free prepayment options, which means you can pay more than the monthly minimum or make extra payments without incurring a cost.</p>
+          </div>
+          <div class="hidden-xs col-sm-4 col-md-4 text-center">
+            <i class="material-icons md-56">&#xE6C5;</i>
+          </div>
+        </div>
+      </div>
+  <div class="container continue">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <a href="#" class="btn btn-primary btn-block btn-lg animated fadeIn">Continue</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <body>
+    <!-- DO'S AND DON'TS SECTION -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> M1 Finance Project </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body class = dosdontssection>
+  <div class= div1> 
+<h1 class = header1> What to do to prepare for the process of taking out a loan: </h1> 
+<br>
+
+<ul class = dosList>
+  <li>Save money</li>
+  <li>Have good credit</li>
+  <li>Pay bills on time</li>
+  <li> Plan out what the loan is being used for</li> 
+  <li>Have a stable job</li>
+  <li>Make sure you know you can pay the loan back</li>
+  <li>Figure out how you will be paying the loan back</li>
+  <li>Make sure you understand how the loan works (any interest rates? Is there different bank locations that meet your standard of taking a loan out?)</li>
+  <li>Make sure you understand the process</li>
+  <li>Make sure to ask questions about anything you are still confused about</li>
+</ul>  
+
+
+</div> 
+
+<div class= div2>
+<h1 class = header1> What to avoid when in the process of taking out a loan:</h1> 
+<br>
+
+<ul class= dontsList>
+  <li>Don't have bad credit </li>
+  <li>Don't have an unstable job</li>
+  <li>Don't be paying bills late</li>
+  <li> Don't take out a loan without having a plan with the loan </li> 
+  <li>Don't take out a loan without knowing how you will pay it back</li>
+  <li>Don't take out a loan without knowing the process of taking out a loan </li>
+  <li>Don't hesitate to ask questions</li>
+</ul> 
+  
+
+  </div> 
+<script src="script.js"></script>
+
+</body>
+
+
+
+</body>
+
+</html>
